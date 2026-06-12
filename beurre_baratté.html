@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beurre Baratté</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Arial&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* First Section */
+        .hero {
+            background-color: #1C332B;
+            color: #F1D894;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 60px 40px;
+        }
+
+        .logo-section {
+            margin-bottom: 30px;
+        }
+
+        .restaurant-name {
+            font-family: 'Great Vibes', cursive;
+            font-size: 48px;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        .address {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #F1D894;
+            margin: 40px 0;
+            width: 80px;
+        }
+
+        .blurb {
+            font-size: 14px;
+            line-height: 1.8;
+            max-width: 500px;
+            margin-bottom: 50px;
+        }
+
+        .reserve-section {
+            font-size: 14px;
+        }
+
+        .reserve-section a {
+            color: #F1D894;
+            text-decoration: none;
+            border-bottom: 1px solid #F1D894;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+
+        .reserve-section a:hover {
+            opacity: 0.8;
+        }
+
+        /* Second Section */
+        .menu-section {
+            background-color: #F1D894;
+            color: #AAC8C8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 60px 40px;
+            position: relative;
+        }
+
+        .menu-title {
+            font-size: 28px;
+            margin-bottom: 40px;
+            font-weight: normal;
+        }
+
+        .menu-items {
+            font-size: 14px;
+            line-height: 2;
+            max-width: 400px;
+            margin-bottom: 60px;
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+        }
+
+        .menu-item-name {
+            font-weight: bold;
+        }
+
+        .menu-item-description {
+            font-size: 12px;
+            opacity: 0.85;
+        }
+
+        .footer-info {
+            position: absolute;
+            bottom: 40px;
+            width: 100%;
+            padding: 0 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-size: 13px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .social-icons a {
+            color: #AAC8C8;
+            text-decoration: none;
+            font-size: 14px;
+            transition: opacity 0.3s;
+        }
+
+        .social-icons a:hover {
+            opacity: 0.7;
+        }
+
+        .contact-email {
+            color: #AAC8C8;
+        }
+
+        .contact-email a {
+            color: #AAC8C8;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .contact-email a:hover {
+            opacity: 0.7;
+        }
+
+        @media (max-width: 768px) {
+            .hero, .menu-section {
+                padding: 40px 25px;
+            }
+
+            .restaurant-name {
+                font-size: 36px;
+            }
+
+            .footer-info {
+                flex-direction: column;
+                gap: 30px;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Section 1 -->
+    <section class="hero">
+        <div class="logo-section">
+            <div class="restaurant-name">Beurre Baratté</div>
+            <div class="address">82 rue Saint-Joseph Ouest, Québec</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="blurb">
+            Une cuisine de marché contemporaine, où chaque assiette raconte l'histoire des producteurs locaux. Un espace intime et soigné pour redécouvrir le plaisir de la table.
+        </div>
+
+        <div class="reserve-section">
+            <a href="#reserve">Réserver une table</a>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="menu-section">
+        <div class="menu-title">Menu</div>
+
+        <div class="menu-items">
+            <div class="menu-item">
+                <div class="menu-item-name">Entrée</div>
+                <div class="menu-item-description">Sélection saisonnière de produits locaux</div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-name">Plat principal</div>
+                <div class="menu-item-description">Protéine du jour accompagnée de légumes de saison</div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-name">Dessert</div>
+                <div class="menu-item-description">Création du chef</div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-name">Boissons</div>
+                <div class="menu-item-description">Sélection de vins et cocktails</div>
+            </div>
+        </div>
+
+        <div class="footer-info">
+            <div class="social-icons">
+                <a href="#instagram">Instagram</a>
+                <a href="#facebook">Facebook</a>
+            </div>
+            <div class="contact-email">
+                <a href="mailto:info@beurrebaratte.com">info@beurrebaratté.com</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

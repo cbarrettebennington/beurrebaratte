@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Beurre Baratté</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <div class="lang-toggle">
+      <a href="menu.html">FR</a>
+      <span class="sep">/</span>
+      <a href="menu-en.html" class="active">EN</a>
+    </div>
+
+    <a class="logo-link" href="index-en.html"><img class="logo logo--small" src="Logo_Beurre_Baratte_BB_Logo_Horiz_Hunter.svg" alt="Beurre Baratté"></a>
+
+    <div class="menu-wrap">
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="menuDropdown" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="menu-dropdown" id="menuDropdown">
+        <a href="menu-en.html" aria-current="page">Menu</a>
+        <a href="presse-en.html">Press</a>
+        <a href="https://widgets.libroreserve.com/WEB/QC017833706888D0578/book" target="_blank" rel="noopener">Reservations</a>
+      </nav>
+    </div>
+
+    <h1 class="page-title">Menu</h1>
+
+    <div class="lede note" id="menuNote"></div>
+
+    <figure class="feature" id="menuFeature" hidden>
+      <div class="feature-images" id="menuImages"></div>
+      <figcaption>
+        <span id="menuDate">Current menu</span>
+        <a href="https://www.instagram.com/stories/highlights/18117137824906438/" target="_blank" rel="noopener">Instagram</a>
+      </figcaption>
+    </figure>
+
+    <p class="lede note" id="menuFallback" hidden>
+      Our current menu is posted on <a href="https://www.instagram.com/stories/highlights/18117137824906438/" target="_blank" rel="noopener">our Instagram</a>.
+    </p>
+    <noscript>
+      <p class="lede note">Our current menu is posted on <a href="https://www.instagram.com/stories/highlights/18117137824906438/">our Instagram</a>.</p>
+    </noscript>
+
+    <p class="cta">
+      <a class="button" href="https://widgets.libroreserve.com/WEB/QC017833706888D0578/book" target="_blank" rel="noopener">Reservations</a>
+    </p>
+
+    <footer>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/beurrebaratte/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61591634834235&amp;mibextid=wwXIfr&amp;rdid=ujxDgLKIvTIV7Nz0&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1cHH7hkTB2" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="mailto:beurrebaratte@gmail.com">Email</a></li>
+      </ul>
+      <div class="addr">
+        <p>82 Rue Saint&#8209;Joseph Ouest<br>Québec, QC</p>
+        <p>418.529.7777</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="menu/menu.js"></script>
+  <script src="site.js"></script>
+
+</body>
+</html>

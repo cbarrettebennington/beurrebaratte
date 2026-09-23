@@ -261,7 +261,7 @@ button:focus-visible{
 /* Menu du moment */
 .feature{
     margin:40px auto 0;
-    max-width:420px;
+    max-width:320px;
     border:2px solid var(--olive);
 }
 .feature-images a{ display:block; }

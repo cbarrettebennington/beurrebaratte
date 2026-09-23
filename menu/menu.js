@@ -22,14 +22,14 @@ window.MENU = {
   images_en: ["menu/menu-en.jpg"],
 
   note_fr: `
-Notre menu change au fil des saisons et des arrivages de nos producteurs. Voici celui de la semaine.
+Notre menu change au fil des saisons et des arrivages de nos producteurs et productrices. Voici celui de la semaine.
 
-Certains plats peuvent s’épuiser en cours de soirée. Pour les allergies et restrictions, avisez-nous lors de la réservation.
+Notez que les plats peuvent changer en cours de semaine. Pour les allergies et restrictions, avisez-nous lors de la réservation.
 `,
 
   note_en: `
 Our menu changes with the seasons and with what our producers bring in. Here is this week’s.
 
-Some dishes may sell out during the evening. For allergies and dietary restrictions, please let us know when you book.
+Please note that some dishes may sell out or change during the week. For allergies and dietary restrictions, please let us know when you book.
 `
 };

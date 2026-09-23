@@ -51,7 +51,9 @@
 
     addParagraphs(noteEl, lang === 'en' ? data.note_en : data.note_fr);
 
-    const images = Array.isArray(data.images) ? data.images.filter(Boolean) : [];
+    const pick = lang === 'en' ? (data.images_en || data.images_fr) : data.images_fr;
+    const list = pick || data.images;
+    const images = Array.isArray(list) ? list.filter(Boolean) : [];
     const version = data.date ? '?v=' + encodeURIComponent(data.date) : '';
     const niceDate = formatDate(data.date);
 

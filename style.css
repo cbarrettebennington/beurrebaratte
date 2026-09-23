@@ -260,7 +260,8 @@ button:focus-visible{
 
 /* Menu du moment */
 .feature{
-    margin-top:40px;
+    margin:40px auto 0;
+    max-width:420px;
     border:2px solid var(--olive);
 }
 .feature-images a{ display:block; }

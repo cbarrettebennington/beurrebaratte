@@ -16,7 +16,7 @@
    ===================================================================== */
 
 window.MENU = {
-  date: "2026-09-23",
+  date: "2026-10-01",
 
   images_fr: ["menu/menu-fr.jpg"],
   images_en: ["menu/menu-en.jpg"],

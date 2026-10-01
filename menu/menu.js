@@ -19,7 +19,7 @@ window.MENU = {
   date: "2026-10-01",
 
   images_fr: ["menu/menu-fr.jpg"],
-  images_en: ["menu/menu-fr.jpg"],
+  images_en: ["menu/menu-en.jpg"],
 
   note_fr: `
 Notre menu change au fil des saisons et des arrivages de nos producteurs et productrices. Voici celui de la semaine.
